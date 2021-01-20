@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+
+h3{
+    color:blueviolet;
+}
+
+#h3id{
+    color:deeppink;
+}
+
+.hclass{
+    color:greenyellow;
+}
+
+
+
+
+ol{
+    list-style: numbers;
+}
+
+button{
+    background: none;
+    padding: 20px 20px; /*top-bottom left-right*/
+    border: 10px solid black; /* border-size type color*/
+    font-size: 25px;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+a{
+    display: block; /* also try inline-block* without this height and width will not work!*/
+    margin: 20px;
+    colour: yellow;
+    height: 20px;
+    width: 200px;
+}
+
+.container{
+    background-color: aquamarine;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    position:relative;
+}
+
+.box1,.box2,.box3{
+    background-color: forestgreen;
+    width: 100px;
+    height: 100px;
+}
+
+.box2{
+    background-color: deeppink;
+}
+
+.box3{
+    background-color: blue;
+}
+
+.box1{
+    position: absolute; /*other boxes get pushed up - we get access to 4 new properties */
+    bottom: 0%;
+    left: 0%;
+    
+}
